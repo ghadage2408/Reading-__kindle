@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-100">
+    <div class="max-w-4xl mx-auto p-4"><!--product1 start-->
+        <h1 class="text-4xl font-bold mb-8 text-center">Shopping Cart</h1>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <table class="w-full">
+                <thead>
+                    <tr class="border-b">
+                        <th class="text-left py-3 px-4">Product</th>
+                        <th class="text-left py-3 px-4">Quantity</th>
+                        <th class="text-left py-3 px-4">Price</th>
+                        <th class="text-left py-3 px-4">Total</th>
+                        <th class="text-left py-3 px-4">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Item 1 -->
+                    <tr class="border-b">
+                        <td class="py-3 px-4 flex items-center">
+                            <img class="w-16 h-24 rounded-lg mr-4" src="static/Images/clever_lands.jpg" alt="Book Cover">
+                            <div>
+                                <p class="font-bold">Book Title 1</p>
+                                <p class="text-gray-600">by Author Name</p>
+                            </div>
+                        </td>
+                        <td class="py-3 px-4">
+                            <input type="number" value="1" class="w-16 border rounded-lg p-2">
+                        </td>
+                        <td class="py-3 px-4">₹10.00</td>
+                        <td class="py-3 px-4">₹10.00</td>
+                        <td class="py-3 px-4">
+                            <p><a href="#"> <button class="bg-red-500 text-white px-4 py-2 rounded-lg">Remove</button></a></p>
+                        </td>
+                    </tr>
+                    <!-- More items can be added similarly -->
+                </tbody>
+            </table>
+            <div class="flex justify-end mt-6">
+                <div class="text-right">
+                    <p class="text-lg font-bold">Subtotal: ₹10.00</p>
+                    <p class="text-lg font-bold">Tax: ₹0.50</p>
+                    <p class="text-xl font-bold mt-2">Total:₹10.50</p>
+                    <p><a href="Placeorder.html"><button class="bg-indigo-500 text-white px-6 py-3 mt-4 rounded-lg">Proceed to Checkout</button></a></p>
+                </div>
+            </div>
+        </div>
+    </div> <!--product1 end-->
+
+    <div class="max-w-4xl mx-auto p-4"> <!--product2 start-->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <table class="w-full">
+                <thead>
+                    <tr class="border-b">
+                        <th class="text-left py-3 px-4">Product</th>
+                        <th class="text-left py-3 px-4">Quantity</th>
+                        <th class="text-left py-3 px-4">Price</th>
+                        <th class="text-left py-3 px-4">Total</th>
+                        <th class="text-left py-3 px-4">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Item 1 -->
+                    <tr class="border-b">
+                        <td class="py-3 px-4 flex items-center">
+                            <img class="w-16 h-24 rounded-lg mr-4" src="static/Images/clever_lands.jpg" alt="Book Cover">
+                            <div>
+                                <p class="font-bold">Book Title 1</p>
+                                <p class="text-gray-600">by Author Name</p>
+                            </div>
+                        </td>
+                        <td class="py-3 px-4">
+                            <input type="number" value="1" class="w-16 border rounded-lg p-2">
+                        </td>
+                        <td class="py-3 px-4">₹10.00</td>
+                        <td class="py-3 px-4">₹10.00</td>
+                        <td class="py-3 px-4">
+                            <p><a href="#"> <button class="bg-red-500 text-white px-4 py-2 rounded-lg">Remove</button></a></p>
+                        </td>
+                    </tr>
+                    <!-- More items can be added similarly -->
+                </tbody>
+            </table>
+            <div class="flex justify-end mt-6">
+                <div class="text-right">
+                    <p class="text-lg font-bold">Subtotal: ₹10.00</p>
+                    <p class="text-lg font-bold">Tax: ₹0.50</p>
+                    <p class="text-xl font-bold mt-2">Total:₹10.50</p>
+                    <p><a href="Placeorder.html"><button class="bg-indigo-500 text-white px-6 py-3 mt-4 rounded-lg">Proceed to Checkout</button></a></p>
+                </div>
+            </div>
+        </div>
+    </div><!--product2 end-->
+</body>
+</html>
